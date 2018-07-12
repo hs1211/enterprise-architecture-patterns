@@ -1,12 +1,16 @@
 Enterprise Architecture
 -----------------------
+|  해당 자료는 마틴 파울러의 책을 정리한 것이며 큰 그림으로 부터 상세한 내용을 정리하기 위하여 만들었다. 
+|  아키텍처는 성능적인면과 확장성적인 면을 고려하여 시스템에서 상위에서 디자인하고 구현하는 것이다. 
+|  이 책에서는 아키텍처는 반쪽만 구워진 빵이라고 하듯 아키텍처는 적용되고 약간의 수정과 조정을 거친후 오전하게 만들어진다. 
+|  빵을 만들러 오늘도 즐거운 한발짝을 걸어보자.
 
-This is a `PasteScript <http://pythonpaste.org/script/>`_ template for generating a Python project. It provides simple starting points for using some of the popular best-practices:
 
-  | * Proper `setuptools <https://pypi.python.org/pypi/setuptools>`_-compatible package layout.
-  | * `py.test <http://pytest.org/>`_-based tests.
-  | * `buildout <http://www.buildout.org/>`_ for managing development tools or developing multiple-package projects
-  | * Usage of the `Travis-CI <https://travis-ci.org/>`_ continuous integration service.
+Layered Architecture
+--------------------
+|  이 책에서는 다양한 패턴보다는 기업에서 많이 쓰이는 'Layered Architecture'를 기본으로 디자인하는 것을 가정하고 있다.
+|  그래서 이책에서 만들하는 Layered Architecture의 큰 그림을 먼저 살펴보도록 하자.
+
 
 
 
