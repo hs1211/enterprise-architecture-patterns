@@ -33,10 +33,37 @@ Layering
   |  --------------------
 
   .. code-block:: text
-
+  
     Presentation: User and S/W와 어떻게 상호작용할지르 책임지는 레이어
     Dmomain Logic: 비지니스 로직이라고도 불리며 도메인에서 실제 다루어야 하는 로직을 뜻하며 저장된 데이터와 주어진 데이터를 기반으로 계산 및 검증을 담당
     Data Source: 다른 시스템과 통신을 담당하는 역할, 기업아키텍처에서는 저장해야 하는 데이터를 대부분으로 이루어짐
+
+
+Patterns
+----------
+각 레이어 별로 속하는 패턴이 다르게 존재할 것이다. 이때, 개별 레이어마다 특징적인 문제들이 존재할 것이다. 
+이를 해결하기 위한 것이 아래에 나와 있는 것과 같이 패턴으로 설명된다.
+먼저 아래 해당 패턴들이 의미하는 바를 살펴보고 가령 왜 패턴이 생겼으며 어떤 문제를 해결하기 위함인지 확인해 보고, 개별적인 내용을 쫓아가 보도록 하겠다.\
+
+  | Domain Logic Patterns: Transaction Script (110), Domain Model (116), Table Module (125), Service Layer (133).
+  |
+  | Data Source Architectural Patterns: Table Data Gateway (144), Row Data Gateway (152), Active Record (160), Data Mapper (165).
+  |
+  | Object-Relational Behavioral Patterns: Unit of Work (184), Identity Map (195), Lazy Load (200)
+  |
+  | Object-Relational Structural Patterns: Identity Field (216), Foreign Key Mapping (236), Association Table Mapping (248), Dependent Mapping (262), Embedded Value (268), Serialized LOB (272), Single Table Inheritance (278), Class Table Inheritance (285), Concrete Table Inheritance (293), Inheritance Mappers (302).
+  |
+  | Object-Relational Metadata Mapping Patterns: Metadata Mapping (306), Query Object (316), Repository (322).
+  |
+  | Web Presentation Patterns: Model View Controller (330), Page Controller (333), Front Controller (344), Template View (350), Transform View (361), Two-Step View (365), Application Controller (379).
+  |
+  | Distribution Patterns: Remote Facade (388), Data Transfer Object (401)
+  |
+  | Offline Concurrency Patterns: Optimistic Offline Lock (416), Pessimistic Offline Lock (426), Coarse Grained Lock (438), Implicit Lock (449).
+  |
+  | Session State Patterns: Client Session State (456), Server Session State (458), Database Session State (462).
+  |
+  | Base Patterns: Gateway (466), Mapper (473), Layer Supertype (475), Separated Interface (476), Registry (480), Value Object (486), Money (488), Special Case (496), Plugin (499), Service Stub (504), Record Set (508)
 
 Reference
 ---------
