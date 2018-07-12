@@ -25,11 +25,11 @@ Layering
 * 해당 책에서는 레이어를 3개로 분리해서 설명한다. 세 개의 레이어의 일반적인 내용을 먼저 확인해 보자.
 
   |  --------------------
-  | |    Presentation    |
+  |     Presentation     
   |  --------------------
-  | |   Domain Logic     |
+  |    Domain Logic     
   |  --------------------
-  | |    Data Source     |
+  |      Data Source     
   |  --------------------
 
   .. code-block:: text
