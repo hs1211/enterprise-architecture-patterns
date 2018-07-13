@@ -61,9 +61,9 @@ Complexity
 
 
 .. image:: ./figure/complexity_of_service_layer.png
-    :width: 400px
+    :width: 300px
     :align: left
-    :height: 300px
+    :height: 200px
     :alt: alternate text
 
 

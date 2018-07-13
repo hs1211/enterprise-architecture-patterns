@@ -47,7 +47,7 @@ Patterns
 
   | `Domain Logic Patterns`_: Transaction Script (110), Domain Model (116), Table Module (125), Service Layer (133).
   |
-  | Data Source Architectural Patterns: Table Data Gateway (144), Row Data Gateway (152), Active Record (160), Data Mapper (165).
+  | `Data Source Architectural Patterns`_: Table Data Gateway (144), Row Data Gateway (152), Active Record (160), Data Mapper (165).
   |
   | Object-Relational Behavioral Patterns: Unit of Work (184), Identity Map (195), Lazy Load (200)
   |
@@ -68,6 +68,7 @@ Patterns
 Reference
 ---------
 .. _`Domain Logic Patterns`: ./domain-logic-pattern/README.rst
+.. _`Data Source Architectural Patterns`: ./relational-db-mapping/README.rst
 
 
 Copyright & License
