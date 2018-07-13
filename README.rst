@@ -24,13 +24,13 @@ Layering
 
 * 해당 책에서는 레이어를 3개로 분리해서 설명한다. 세 개의 레이어의 일반적인 내용을 먼저 확인해 보자.
 
-  |  --------------------
-  |     Presentation     
-  |  --------------------
-  |    Domain Logic     
-  |  --------------------
-  |      Data Source     
-  |  --------------------
+  +--------------------+
+  |     Presentation   | 
+  +--------------------+
+  |    Domain Logic    |
+  +--------------------+
+  |      Data Source   | 
+  +--------------------+
 
   .. code-block:: text
   
@@ -45,7 +45,7 @@ Patterns
 이를 해결하기 위한 것이 아래에 나와 있는 것과 같이 패턴으로 설명된다.
 먼저 아래 해당 패턴들이 의미하는 바를 살펴보고 가령 왜 패턴이 생겼으며 어떤 문제를 해결하기 위함인지 확인해 보고, 개별적인 내용을 쫓아가 보도록 하겠다.\
 
-  | Domain Logic Patterns: Transaction Script (110), Domain Model (116), Table Module (125), Service Layer (133).
+  | `Domain Logic Patterns`_: Transaction Script (110), Domain Model (116), Table Module (125), Service Layer (133).
   |
   | Data Source Architectural Patterns: Table Data Gateway (144), Row Data Gateway (152), Active Record (160), Data Mapper (165).
   |
@@ -67,6 +67,7 @@ Patterns
 
 Reference
 ---------
+.. _`Domain Logic Patterns`: ./domain-logic-pattern/README.rst
 
 
 Copyright & License
