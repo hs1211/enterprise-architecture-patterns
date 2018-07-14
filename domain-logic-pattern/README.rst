@@ -51,22 +51,21 @@ Table Module
 Table Module은 Domain Model과 비슷해 보인다. 하지만 Domain Model은 한 인스턴스 당 데이터 베이스 aggregate와 일치하지만,
 Table Model은 Record Set 즉 여러개의 인스턴스를 다루는 것을 목적으로 한다.
 
-Note
------
+*Note*
 
-|  Strategy Pattern: 
-|  - Context와 Strategy간의 변경이 동적으로 변경할 수 있는 패턴으로 Context는 보존되지만 전략이 변경되는 경우에 사용함
-|     e.g) passport.js에서 로그인 방법을 변경할때 사용하는 방식
-|     
-|          Client --> Context(strategy) --> strategy handle
-|   
-|  State Pattern:
-|  - State패턴은 Strategy 패턴의 변형으로, 상태가 변경될때 마다 상태에 고정적인 기능을 사용하는 패턴
-|
-|          Client --> Context(State Machine Trigger)  --> State handle
-|
-|  개인적으로 두 패턴의 가장 큰 차이점 중 하나에는 전략패턴에서는 외부에서 입력을 통하여 전략을 선택한것이고, 
-|  상태패턴은 FSM(Finite State Machine)을 잘 표현하는 전략이라고 생각한다.
+  |  Strategy Pattern: 
+  |  - Context와 Strategy간의 변경이 동적으로 변경할 수 있는 패턴으로 Context는 보존되지만 전략이 변경되는 경우에 사용함
+  |     e.g) passport.js에서 로그인 방법을 변경할때 사용하는 방식
+  |     
+  |          Client --> Context(strategy) --> strategy handle
+  |   
+  |  State Pattern:
+  |  - State패턴은 Strategy 패턴의 변형으로, 상태가 변경될때 마다 상태에 고정적인 기능을 사용하는 패턴
+  |
+  |          Client --> Context(State Machine Trigger)  --> State handle
+  |
+  |  개인적으로 두 패턴의 가장 큰 차이점 중 하나에는 전략패턴에서는 외부에서 입력을 통하여 전략을 선택한것이고, 
+  |  상태패턴은 FSM(Finite State Machine)을 잘 표현하는 전략이라고 생각한다.
 
 
 
